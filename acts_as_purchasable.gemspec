@@ -4,9 +4,9 @@ require File.expand_path('../lib/acts_as_purchasable/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Damien Wilson"]
   gem.email         = ["damien@mindglob.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Everything has it's price, and now your ActiveRecord models can too!}
+  gem.summary       = %q{`acts_as_purchasable` extends ActiveRecord models with methods that allow you to perform simple payment transactions on your models.}
+  gem.homepage      = "https://github.com/damien/acts_as_purchasable"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "acts_as_purchasable"
   gem.require_paths = ["lib"]
   gem.version       = ActsAsPurchasable::VERSION
+
+  gem.add_dependency "activesupport", "~> 3.2.3"
 end
