@@ -17,8 +17,8 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "rails", "~> 3.2"
 
-  gem.add_development_dependency "rspec"
-  gem.add_development_dependency "rspec-rails"
+  gem.add_development_dependency "rspec", "~> 2.9"
+  gem.add_development_dependency "rspec-rails", "~> 2.9"
   gem.add_development_dependency "growl"
   gem.add_development_dependency "guard"
   gem.add_development_dependency "guard-rspec"
