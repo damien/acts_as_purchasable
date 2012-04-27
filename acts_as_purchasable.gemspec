@@ -16,4 +16,6 @@ Gem::Specification.new do |gem|
   gem.version       = ActsAsPurchasable::VERSION
 
   gem.add_dependency "activesupport", "~> 3.2"
+
+  gem.add_development_dependency "rspec"
 end
