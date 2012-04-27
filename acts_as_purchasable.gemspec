@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = ActsAsPurchasable::VERSION
 
-  gem.add_dependency "activesupport", "~> 3.2"
+  gem.add_dependency "rails", "~> 3.2"
 
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "growl"
